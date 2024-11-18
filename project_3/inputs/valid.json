@@ -1,0 +1,33 @@
+{
+    "status": "ok",
+    "totalResults": 2,
+    "articles": [
+      {
+        "source": {
+          "id": "cnn",
+          "name": "CNN"
+        },
+        "author": "Author 1",
+        "title": "Title 1",
+        "description": "Description 1",
+        "url": "https://example.com/1",
+        "urlToImage": "https://www.example.com/image1.jpg",
+        "publishedAt": "2024-10-15T10:00:00Z",
+        "content": "Content 1"
+      },
+      {
+        "source": {
+          "id": "bbc-news",
+          "name": "BBC News"
+        },
+        "author": "Author 2",
+        "title": "Title 2",
+        "description": "Description 2",
+        "url": "https://example.com/2",
+        "urlToImage": "https://www.example.com/image2.jpg",
+        "publishedAt": "2024-10-15T11:00:00Z",
+        "content": "Content 2"
+      }
+    ]
+  }
+  

@@ -1,0 +1,94 @@
+Nov 01, 2024 4:00:06 PM parse.Driver main
+WARNING: Error processing file /Users/daiwik/Desktop/project-assignment-2-daiwik-swaminathan/project_2/inputs/example.json: /Users/daiwik/Desktop/project-assignment-2-daiwik-swaminathan/project_2/inputs/example.json
+Nov 01, 2024 4:00:06 PM parse.Driver main
+WARNING: Error processing file /Users/daiwik/Desktop/project-assignment-2-daiwik-swaminathan/project_2/inputs/bad.json: /Users/daiwik/Desktop/project-assignment-2-daiwik-swaminathan/project_2/inputs/bad.json
+Nov 01, 2024 4:24:40 PM parse.Driver main
+WARNING: Error processing file /Users/daiwik/Desktop/project-assignment-2-daiwik-swaminathan/project_2/inputs/newsapi.json: /Users/daiwik/Desktop/project-assignment-2-daiwik-swaminathan/project_2/inputs/newsapi.json
+Nov 01, 2024 8:43:44 PM parse.Driver parseContent
+WARNING: Error parsing content: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"<html><head>  <meta http-equiv="refresh" content="5;url=https://nojs.domaincntrol.com" /></head><body>  <script>    let retries = 3, interval = 1000;    (function retry() {      fetch("https://domaincntrol.com/?orighost=" + window.location.href)        .then(response => response.json())        .then(data => window.location.href = data)        .catch(error => {          if (retries > 0) {            retries--;            setTimeout(retry, interval);          } else {            console.error("Err"[truncated 70 chars]; line: 1, column: 2]
+Nov 01, 2024 8:45:12 PM parse.Driver parseContent
+WARNING: Error parsing content: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"<html><head>  <meta http-equiv="refresh" content="5;url=https://nojs.domaincntrol.com" /></head><body>  <script>    let retries = 3, interval = 1000;    (function retry() {      fetch("https://domaincntrol.com/?orighost=" + window.location.href)        .then(response => response.json())        .then(data => window.location.href = data)        .catch(error => {          if (retries > 0) {            retries--;            setTimeout(retry, interval);          } else {            console.error("Err"[truncated 70 chars]; line: 1, column: 2]
+Nov 01, 2024 8:45:12 PM parse.Driver parseContent
+WARNING: Error parsing content: Cannot deserialize value of type `java.util.ArrayList<parse.Article>` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: (String)"{
+  "description": "Extend Assignment #1 to support multiple sources and to introduce source processor.",
+  "publishedAt": "2021-04-16 09:53:23.709229",
+  "title": "Assignment #2",
+  "url": "https://canvas.calpoly.edu/courses/55411/assignments/274503"
+}"; line: 1, column: 1]
+Nov 02, 2024 1:51:38 PM parse.Driver parseContent
+WARNING: Error parsing content: Cannot deserialize value of type `java.util.ArrayList<parse.Article>` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: (String)"{
+  "description": "Extend Assignment #1 to support multiple sources and to introduce source processor.",
+  "publishedAt": "2021-04-16 09:53:23.709229",
+  "title": "Assignment #2",
+  "url": "https://canvas.calpoly.edu/courses/55411/assignments/274503"
+}"; line: 1, column: 1]
+Nov 02, 2024 3:18:18 PM parse.NewsParser validateArticle
+WARNING: Invalid article: Title: null
+Description: null
+Published At: null
+URL: null
+
+
+Nov 02, 2024 3:18:18 PM parse.NewsParser validateArticle
+WARNING: Invalid article: Title: null
+Description: null
+Published At: null
+URL: null
+
+
+Nov 02, 2024 3:18:18 PM parse.Driver parseContent
+WARNING: Error parsing content: Cannot deserialize value of type `java.util.ArrayList<parse.Article>` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: (String)"{
+  "description": "Extend Assignment #1 to support multiple sources and to introduce source processor.",
+  "publishedAt": "2021-04-16 09:53:23.709229",
+  "title": "Assignment #2",
+  "url": "https://canvas.calpoly.edu/courses/55411/assignments/274503"
+}"; line: 1, column: 1]
+Nov 02, 2024 3:19:50 PM parse.NewsParser validateArticle
+WARNING: Invalid article: Title: null, Description: null, Published At: null, URL: null
+Nov 02, 2024 3:19:51 PM parse.NewsParser validateArticle
+WARNING: Invalid article: Title: null, Description: null, Published At: null, URL: null
+Nov 02, 2024 3:19:51 PM parse.Driver parseContent
+WARNING: Error parsing content: Cannot deserialize value of type `java.util.ArrayList<parse.Article>` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: (String)"{
+  "description": "Extend Assignment #1 to support multiple sources and to introduce source processor.",
+  "publishedAt": "2021-04-16 09:53:23.709229",
+  "title": "Assignment #2",
+  "url": "https://canvas.calpoly.edu/courses/55411/assignments/274503"
+}"; line: 1, column: 1]
+Nov 02, 2024 3:20:26 PM parse.NewsParser validateArticle
+WARNING: Invalid article: Title: null
+Description: null
+Published At: null
+URL: null
+
+
+Nov 02, 2024 3:20:27 PM parse.NewsParser validateArticle
+WARNING: Invalid article: Title: null
+Description: null
+Published At: null
+URL: null
+
+
+Nov 02, 2024 3:20:27 PM parse.Driver parseContent
+WARNING: Error parsing content: Cannot deserialize value of type `java.util.ArrayList<parse.Article>` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: (String)"{
+  "description": "Extend Assignment #1 to support multiple sources and to introduce source processor.",
+  "publishedAt": "2021-04-16 09:53:23.709229",
+  "title": "Assignment #2",
+  "url": "https://canvas.calpoly.edu/courses/55411/assignments/274503"
+}"; line: 1, column: 1]
+Nov 02, 2024 3:21:17 PM parse.Driver parseContent
+WARNING: Error parsing content: Cannot deserialize value of type `java.util.ArrayList<parse.Article>` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: (String)"{
+  "description": "Extend Assignment #1 to support multiple sources and to introduce source processor.",
+  "publishedAt": "2021-04-16 09:53:23.709229",
+  "title": "Assignment #2",
+  "url": "https://canvas.calpoly.edu/courses/55411/assignments/274503"
+}"; line: 1, column: 1]
+Nov 02, 2024 9:02:27 PM parse.NewsParser parse
+WARNING: Error parsing article: Missing or invalid field: description

@@ -1,0 +1,29 @@
+{
+    "status": "ok",
+    "totalResults": 2,
+    "articles": [
+      {
+        "source": {
+          "id": "cnn",
+          "name": "CNN"
+        },
+        "author": "Author 1",
+        "title": "Title 1",
+        "url": "https://www.example.com/1",
+        "publishedAt": "2024-10-15T10:00:00Z"
+      },
+      {
+        "source": {
+          "id": "bbc-news",
+          "name": "BBC News"
+        },
+        "title": "Title 2",
+        "description": "Description 2",
+        "url": "https://example.com/2",
+        "urlToImage": "https://www.example.com/image2.jpg",
+        "publishedAt": "2024-10-15T11:00:00Z",
+        "content": "Content 2"
+      }
+    ]
+  }
+  
